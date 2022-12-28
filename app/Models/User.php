@@ -44,12 +44,14 @@ class User extends Authenticatable
 
     protected $guarded = [];
     
-    public function contact()
-    {
-        return $this->hasOne(Contact::class);
-    }
-    public function product()
-    {
-        return $this->hasOne(Product::class);
-    }
+    // public function contact()
+    // {
+    //     return $this->hasOne(Contact::class);
+    // }
+    // public function product()
+    // {
+    //     return $this->hasOne(Product::class);
+    // }
+
+
 }

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\EmployeeController;
 
 
 /*
@@ -20,3 +21,4 @@ use App\Http\Controllers\ContactController;
 // });
 
 Route::get('/',[ContactController::class, 'index'])->name('contact');
+Route::get('employee',[EmployeeController::class, 'index'])->name('employee');
